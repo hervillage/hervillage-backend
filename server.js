@@ -20,8 +20,6 @@ app.post("/twilio", function (request, response) {
     });
 
 
-    app.post("/", function (request, response) {
-
         res.send('Hello anthony!');
 
-        });
+});
