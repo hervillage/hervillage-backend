@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var twilio = require('twilio');
 
-app.post("/twilio", function (request, response) {
+app.get("/twilio", function (request, response) {
 
   var accountSid = process.env.twilioaccountSid;
   var authToken = process.env.twilioauthToken;
