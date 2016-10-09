@@ -17,3 +17,10 @@ app.post("/twilio", function (request, response) {
         // add services here, e.g. mentorship, childcare, etc.
         attributes: JSON.stringify({'type': 'resource'})
     });
+
+
+    app.post("/", function (request, response) {
+
+        res.send('Hello anthony!');
+        
+        });
